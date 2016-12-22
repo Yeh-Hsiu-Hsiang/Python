@@ -1,0 +1,30 @@
+# 副檔名
+原始程式碼檔案(又稱為腳本script檔)
+.pyc --->位元組(bytecode)檔
+.pyo --->開啟效能最佳化編譯出的bytecode
+
+# 編碼
+ # -*- coding: utf-8 -*-
+SyntaxError:encoding problem:utf-42 
+(語法錯誤，編碼問題)
+
+#! 開頭 -->告知作業系統以哪支程式指令處理此檔
+#!/usr/bin/env python
+直接指定路徑↓↓
+#!/usr/bin/python
+#!/usr/bin/python3
+
+更改屬性↓↓
+chmod + x hello.py
+./hello.py
+
+2.7
+= 指派
+== 判斷兩邊是否相等
+is 判斷是否指向同一物件
+
+2.8
+多型(polymorphism)
+根據型別做出不同行為機制。
+ex: a + b (int) -->算術家法
+    a + b (str) -->字串連接
